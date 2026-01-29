@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <section class="flex justify-center align-middle">
+  <section class="flex justify-center align-middle p-10">
     <div
       class="h-38 lg:w-3xl sm:w-50 bg-amber-600 rounded-2xl p-4 flex flex-row"
     >
@@ -10,7 +10,7 @@
         quia pariatur. Sit a maxime nemo. Id veritatis excepturi hic distinctio
         expedita explicabo iste eum, quae illo, quos non a?
       </p>
-      <button></button>
+      <button>fHellow</button>
     </div>
   </section>
 </template>

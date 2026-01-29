@@ -1,6 +1,6 @@
 <script>
-import About from "../components/About.vue";
-import Footer from "../components/Footer.vue";
+import Products from "../components/Products.vue";
+import FooterBar from "../components/FooterBar.vue";
 import Hero from "../components/Hero.vue";
 import Navbar from "../components/Navbar.vue";
 import Newsletter from "../components/Newsletter.vue";
@@ -10,17 +10,19 @@ export default {
   components: {
     Navbar,
     Hero,
-    About,
+    Products,
     Newsletter,
-    Footer,
+    FooterBar,
   },
 };
 </script>
 
 <template>
-  <Navbar></Navbar>
-  <Hero></Hero>
-  <About></About>
-  <Newsletter></Newsletter>
-  <Footer></Footer>
+  <div class="w-screen">
+    <Navbar></Navbar>
+    <Hero></Hero>
+    <Products></Products>
+    <Newsletter></Newsletter>
+    <FooterBar></FooterBar>
+  </div>
 </template>
