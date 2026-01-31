@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <section class="flex justify-center align-middle p-10">
+  <section class="flex justify-center align-middle p-10 w-full">
     <div
       class="h-38 lg:w-3xl sm:w-50 bg-amber-600 rounded-2xl p-4 flex flex-row"
     >

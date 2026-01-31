@@ -4,19 +4,19 @@ import gsap from "gsap";
 
 const images = [
   [
-    "/src/assets/Home/carosal.jpeg",
-    "/src/assets/Home/carosal.jpeg",
-    "/src/assets/Home/carosal.jpeg",
+    "/src/assets/Home/chiclid.webp",
+    "/src/assets/Home/danio.webp",
+    "/src/assets/Home/oscar.webp",
   ],
   [
-    "/src/assets/Home/carosal.jpeg",
-    "/src/assets/Home/carosal.jpeg",
-    "/src/assets/Home/carosal.jpeg",
+    "/src/assets/Home/betta1.webp",
+    "/src/assets/Home/betta2.webp",
+    "/src/assets/Home/betta3.webp",
   ],
   [
-    "/src/assets/Home/carosal.jpeg",
-    "/src/assets/Home/carosal.jpeg",
-    "/src/assets/Home/carosal.jpeg",
+    "/src/assets/Home/malawi.webp",
+    "/src/assets/Home/ram.webp",
+    "/src/assets/Home/discus.webp",
   ],
 ];
 
@@ -39,7 +39,7 @@ onMounted(() => {
 <template>
   <section class="flex gap-7 justify-center w-full overflow-hidden h-screen">
     <h1
-      class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 mix-blend-difference text-white font-extrabold text-9xl"
+      class="absolute top-1/2 left-1/2 transform font-[Pacifico] -translate-x-1/2 -translate-y-1/2 z-10 mix-blend-difference text-white font-extrabold text-balancemd:text-9xl"
     >
       BettaStop
     </h1>
