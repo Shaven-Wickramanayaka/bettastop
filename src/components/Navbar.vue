@@ -5,7 +5,7 @@
     <div class="flex">
       <div class="flex-1 px-2">BettaStop</div>
       <div class="grow px-2 text-center">
-        <a class="px-2 text-white decoration-0" href="">Fish</a>
+        <a class="px-2 text-white decoration-0" href="/shop">Fish</a>
         <a class="px-2 text-white decoration-0" href="">Shrimp</a>
         <a class="px-2 text-white decoration-0" href="">Equipment</a>
       </div>

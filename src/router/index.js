@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
-import Fish from "../views/Fish.vue";
+import Shop from "../views/Shop.vue";
 const routes = [
   { path: "/", name: "Home", component: Home },
-  { path: "/fish", name: "Fish", component: Fish },
+  { path: "/shop", name: "Shop", component: Shop },
 ];
 const router = createRouter({
   history: createWebHistory(),
