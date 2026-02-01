@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-  <div class="w-fit">
+  <div class="w-screen bg-[#121212]">
     <Navbar></Navbar>
     <Hero></Hero>
     <Products></Products>
