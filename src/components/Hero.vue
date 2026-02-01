@@ -4,19 +4,19 @@ import gsap from "gsap";
 
 const images = [
   [
-    "/assets/chiclid_598x797.webp",
-    "/assets/danio_598x598.webp",
-    "/assets/oscar_598x399.webp",
+    "/bettastop/assets/chiclid_598x797.webp",
+    "/bettastop/assets/danio_598x598.webp",
+    "/bettastop/assets/oscar_598x399.webp",
   ],
   [
-    "/assets/betta1_598x399.webp",
-    "/assets/betta2_598x399.webp",
-    "/assets/betta3_598x478.webp",
+    "/bettastop/assets/betta1_598x399.webp",
+    "/bettastop/assets/betta2_598x399.webp",
+    "/bettastop/assets/betta3_598x478.webp",
   ],
   [
-    "/assets/malawi_598x399.webp",
-    "/assets/ram_598x399.webp",
-    "/assets/discus_598x399.webp",
+    "/bettastop/assets/malawi_598x399.webp",
+    "/bettastop/assets/ram_598x399.webp",
+    "/bettastop/assets/discus_598x399.webp",
   ],
 ];
 
