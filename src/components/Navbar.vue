@@ -25,36 +25,36 @@ export default {
   >
     <div class="flex">
       <div class="flex-1 px-3 font-[Pacifico]">
-        <a
+        <router-link
           @mouseenter="enlarge"
           @mouseleave="delarge"
           class="inline-block"
-          href="/"
-          >BettaStop</a
+          to="/"
+          >BettaStop</router-link
         >
       </div>
       <div class="grow px-2 text-center">
         <!-- Is delarge a word? -->
-        <a
+        <router-link
           @mouseenter="enlarge"
           @mouseleave="delarge"
           class="inline-block px-2 text-white decoration-0 font-[Pacifico]"
-          href="/shop"
-          >Fish</a
+          to="/shop"
+          >Fish</router-link
         >
-        <a
+        <router-link
           @mouseenter="enlarge"
           @mouseleave="delarge"
           class="inline-block px-2 text-white decoration-0 font-[Pacifico]"
-          href="/shop"
-          >Shrimp</a
+          to="/shop"
+          >Shrimp</router-link
         >
-        <a
+        <router-link
           @mouseenter="enlarge"
           @mouseleave="delarge"
           class="inline-block px-2 text-white decoration-0 font-[Pacifico]"
-          href="/shop"
-          >Equipment</a
+          to="/shop"
+          >Equipment</router-link
         >
       </div>
       <div class="flex-1 px-3 text-end">
