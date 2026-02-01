@@ -6,4 +6,9 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   base: "/Bettastop/",
   plugins: [vue(), tailwindcss()],
+  rollupOptions: {
+    input: {
+      main: "./index.html",
+    },
+  },
 });
