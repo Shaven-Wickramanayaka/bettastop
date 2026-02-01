@@ -25,7 +25,7 @@ export default {
       <div
         @mouseenter="lift"
         @mouseleave="drop"
-        class="col-span-2 rounded-xl flex align-middle row-span-2 row-start-1 col-start-1 my-2 h-48 px-2 h-fill bg-[url('/src/assets/Home/betta1_598x399.webp')] hover:z-30 w-auto"
+        class="col-span-2 rounded-xl flex align-middle row-span-2 row-start-1 col-start-1 my-2 h-48 px-2 h-fill bg-cover bg-[url('/assets/betta1_598x399.webp')] bg-center hover:z-30 w-auto"
       >
         <span
           class="justify-center my-auto font-bold font-[Raleway] text-4xl p-3"
@@ -36,7 +36,7 @@ export default {
       <div
         @mouseenter="lift"
         @mouseleave="drop"
-        class="col-span-2 rounded-xl flex row-span-2 row-start-2 col-start-2 my-2 h-48 px-2 h-fill bg-[url('/src/assets/Home/betta1_598x399.webp')] hover:z-30 w-auto"
+        class="col-span-2 rounded-xl flex row-span-2 row-start-2 col-start-2 my-2 h-48 px-2 h-fill bg-cover bg-[url('/assets/betta1_598x399.webp')] bg-center hover:z-30 w-auto"
       >
         <span
           class="justify-center my-auto font-bold font-[Raleway] text-4xl p-3"
@@ -47,7 +47,7 @@ export default {
       <div
         @mouseenter="lift"
         @mouseleave="drop"
-        class="col-span-2 rounded-xl flex row-span-2 row-start-3 col-start-3 my-2 h-48 px-2 h-fill bg-[url('/src/assets/Home/freshwater-aquarium.webp')] bg-blend-multiply hover:z-30 w-auto"
+        class="col-span-2 rounded-xl flex row-span-2 row-start-3 col-start-3 my-2 h-48 px-2 h-fill bg-cover bg-[url('/assets/betta1_598x399.webp')] bg-center bg-blend-multiply hover:z-30 w-auto"
       >
         <span
           class="justify-center my-auto font-bold font-[Raleway] text-4xl brightness-100 p-3"

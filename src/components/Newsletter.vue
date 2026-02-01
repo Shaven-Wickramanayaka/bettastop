@@ -11,7 +11,7 @@ export default {
 <template>
   <section class="flex justify-center align-middle p-10 w-full">
     <div class="flex h-38 lg:w-3xl sm:w-50 bg-[#3a3a3a] rounded-2xl p-4">
-      <img src="/src/assets/Home/suprised.jpg" alt="" class="flex-1" />
+      <img src="/assets/suprised.jpg" alt="" class="flex-1" />
       <p class="text-xsm flex-4 p-3 font-[Raleway]">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati optio
         quia pariatur. Sit a maxime nemo. Id veritatis excepturi hic distinctio
