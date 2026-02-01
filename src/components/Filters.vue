@@ -1,10 +1,10 @@
 <script></script>
 <template>
-  <div class="w-screen justify-self-start mt-30">
+  <div class="w-screen justify-self-startp-3 m-3">
     <button
       command="show-modal"
       commandfor="drawer"
-      class="rounded-md bg-red-400 p-2 hover:border-2"
+      class="rounded-md p-2 hover:bg-gray-200 hover:text-black ml-3 backdrop-blur-sm border border-gray-200"
     >
       Filters
     </button>
@@ -16,7 +16,7 @@
       class="fixed inset-0 size-auto max-h-none max-w-none overflow-hidden bg-transparent not-open:hidden backdrop:bg-transparent"
     >
       <el-dialog-backdrop
-        class="absolute inset-0 bg-gray-500/75 transition-opacity duration-500 ease-in-out data-closed:opacity-0 dark:bg-gray-900/50"
+        class="absolute inset-0 bg-gray-500/75 transition-opacity duration-500 ease-in-out data-closed:opacity-0 dark:bg-[#121212]/75"
       ></el-dialog-backdrop>
 
       <div
@@ -56,57 +56,37 @@
           </div>
 
           <div
-            class="relative flex h-full flex-col overflow-y-auto bg-white py-6 shadow-xl dark:bg-red-800 dark:after:absolute dark:after:inset-y-0 dark:after:left-0 dark:after:w-px dark:after:bg-white/10"
+            class="relative flex h-full flex-col overflow-y-auto py-6 shadow-xl backdrop-blur-sm dark:after:absolute dark:after:inset-y-0 dark:after:left-0 dark:after:w-px dark:after:bg-white/10"
           >
             <div class="px-4 sm:px-6">
               <h2
                 id="drawer-title"
-                class="text-base font-semibold text-gray-900 dark:text-white"
+                class="text-base font-semibold text-gray-900 dark:text-white font-[Pacifico]"
               >
                 Filters
               </h2>
             </div>
-            <div class="relative mt-6 flex-1 px-4 sm:px-6">
-              <div>
-                <div>
-                  <form>
-                    <input
-                      type="checkbox"
-                      id="vehicle1"
-                      name="vehicle1"
-                      value="Bike"
-                    />
-                    <label for="vehicle1">Fish</label><br />
-
-                    <input
-                      type="checkbox"
-                      id="vehicle2"
-                      name="vehicle2"
-                      value="Car"
-                      checked
-                    />
-                    <label for="vehicle2">Shrimp</label><br />
-
-                    <input
-                      type="checkbox"
-                      id="vehicle3"
-                      name="vehicle3"
-                      value="Boat"
-                    />
-                    <label for="vehicle3">Equipment</label>
-                    <input
-                      type="range"
-                      min="1"
-                      max="100"
-                      value="50"
-                      class="slider"
-                      id="myRange"
-                    />
-                    <label for="vehicle3">Price</label>
-                  </form>
-                </div>
-              </div>
-              <div></div>
+            <div class="relative mt-6 flex-1 px-4 sm:px-6 flex flex-col">
+              <form>
+                <ul class="text-2xl p-3 font-[Raleway]">
+                  <li>
+                    <label class="pr-3" for="fish">Fish</label>
+                    <input class="p-3" type="checkbox" />
+                  </li>
+                  <li>
+                    <label class="pr-3" for="shrimp">Shrimp</label>
+                    <input type="checkbox" />
+                  </li>
+                  <li>
+                    <label class="pr-3" for="equipment">Equipment</label>
+                    <input type="checkbox" />
+                  </li>
+                  <li>
+                    <label class="pr-3" for="price">Price</label>
+                    <input type="range" min="1" max="100" value="50" />
+                  </li>
+                </ul>
+              </form>
             </div>
           </div>
         </el-dialog-panel>
