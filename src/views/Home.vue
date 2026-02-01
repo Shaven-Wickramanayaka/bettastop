@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-  <div class="w-full">
+  <div class="w-fit">
     <Navbar></Navbar>
     <Hero></Hero>
     <Products></Products>
